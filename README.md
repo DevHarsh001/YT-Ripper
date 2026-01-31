@@ -9,7 +9,6 @@ A minimalist, high-performance YouTube downloader for Windows. Built with Electr
 ## Features
 
 - **High Definition Support:** Downloads 1080p, 720p, and 480p video and high quality audio.
-- **Fail-Safe Mode:** Adaptive engine detects if FFmpeg is missing and gracefully falls back to 720p safe mode.
 - **Portable:** Single executable file with zero installation required.
 - **Privacy:** Your data remains on your computer.
 - **Adfree:** Adfree software
@@ -66,7 +65,7 @@ If you want to build this app from source, follow these steps:
     npm install
     ```
 
-3.  **Setup FFmpeg (Required for 1080p)**
+3.  **Setup FFmpeg**
     * Create a folder named `bin` in the project root.
     * Download **FFmpeg (Windows Build)** from [gyan.dev](https://www.gyan.dev/ffmpeg/builds/).
     * Extract `ffmpeg.exe` and place it inside the `bin/` folder.
